@@ -1,0 +1,10 @@
+[push]
+	autoSetupRemote = true
+[user]
+	name = TheBotlyNoob
+	email = jj@jj.is-a.dev
+[pull]
+	rebase = false
+[credential]
+	helper = cache --timeout 7200
+	helper = oauth

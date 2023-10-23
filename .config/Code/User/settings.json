@@ -1,0 +1,300 @@
+{
+    "css.validate": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.windows": "C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell.exe (migrated)",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "projectManager.git.baseFolders": [
+        "C:\\Users\\jj\\GitHub",
+        "/home/jj/GitHub/",
+        "/home/jj/github"
+    ],
+    "editor.largeFileOptimizations": true,
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontFamily": "'FiraCode Nerd Font', 'FiraCode NFM', 'Fira Code', 'Operator Mono SSm Lig', 'Operator Mono Lig', 'Ubuntu Mono', Ubuntu, 'Droid Sans Mono', 'Droid Sans Fallback', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "editor.letterSpacing": 0.5,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.insertFinalNewline": true,
+    "editor.maxTokenizationLineLength": 2000,
+    "files.associations": {
+        "procfile": "yaml",
+        "*.vmx": "properties",
+        ".textlintrc": "yaml",
+        "*.html": "html"
+    },
+    "editor.tokenColorCustomizations": {},
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.tabs.enabled": true,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.codeActionsOnSave": {},
+    "css.lint.important": "warning",
+    "diffEditor.wordWrap": "off",
+    "terminal.integrated.profiles.windows": {
+        "C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell.exe (migrated)": {
+            "path": "C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell.exe",
+            "args": []
+        }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.linkedEditing": true,
+    "git.allowForcePush": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "prettier.trailingComma": "none",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "tabnine.experimentalAutoImports": true,
+    "git.autoStash": true,
+    "git.confirmEmptyCommits": false,
+    "git.fetchOnPull": true,
+    "editor.detectIndentation": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true,
+        "suppressLineUncommittedWarning": true
+    },
+
+    "[bash]": {
+        "editor.defaultFormatter": "timonwong.shellcheck"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true
+    },
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "liveshare.audio.startCallOnShare": true,
+    "[ignore]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "rpc.appName": "Visual Studio Code",
+    "rpc.buttonInactiveLabel": "My GitHub",
+    "rpc.buttonInactiveUrl": "https://github.com/TheBotlyNoob/",
+    "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+    "remote.SSH.remotePlatform": {},
+    "csharp.suppressDotnetInstallWarning": true,
+    "csharp.suppressDotnetRestoreNotification": true,
+    "redhat.telemetry.enabled": true,
+    "projectManager.ignoreProjectsWithinProjects": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "git.ignoreMissingGitWarning": true,
+    "[hosts]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "rust-analyzer.releaseTag": "stable",
+    "rust-analyzer.build_on_save": true,
+    "git.confirmSync": false,
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[dockerfile]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[dotenv]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "editor.wordWrap": "off",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "[properties]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "vscode-edge-devtools.mirrorEdits": true,
+    "blockman.n01LineHeight": 0,
+    "rust.all_features": true,
+    "rust-client.updateOnStartup": true,
+    "rust.build_on_save": true,
+    "rust.clippy_preference": "on",
+    "rust.unstable_features": true,
+    "rust.jobs": 5,
+    "rust-client.enableMultiProjectSetup": null,
+    "git-autoconfig.configList": [{}],
+    "rust-analyzer.cargo.allFeatures": true,
+    "rust-analyzer.debug.openDebugPane": true,
+    "rust-analyzer.trace.extension": true,
+    "rust-analyzer.trace.server": "verbose",
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "terminal.integrated.scrollback": 10000,
+    "rust-analyzer.inlayHints.maxLength": 10,
+    "rust-analyzer.notifications.cargoTomlNotFound": false,
+    "rust-analyzer.workspace.symbol.search.kind": "all_symbols",
+    "rust-analyzer.workspace.symbol.search.scope": "workspace_and_dependencies",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.smoothScrolling": true,
+    "markdown.preview.typographer": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "rpc.buttonEnabled": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+    "powershell.integratedConsole.forceClearScrollbackBuffer": true,
+    "powershell.startAsLoginShell.linux": true,
+    "powershell.startAutomatically": false,
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.showDescription": "In File Comment",
+    "leetcode.defaultLanguage": "rust",
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+    "rust-analyzer.lens.enumVariantReferences": true,
+    "rust-analyzer.lens.methodReferences": true,
+    "rust-analyzer.lens.references": true,
+    "editor.inlayHints.enabled": "on",
+    "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
+    "files.eol": "\n",
+    "vscode-edge-devtools.webhint": false,
+    "settingsSync.ignoredSettings": [
+        "configurationSync.store",
+        "leetcode.workspaceFolder"
+    ],
+    "remoteHub.commitDirectlyWarning": "off",
+    "deno.codeLens.implementations": true,
+    "deno.codeLens.references": true,
+    "deno.codeLens.referencesAllFunctions": true,
+    "deno.codeLens.test": true,
+    "deno.suggest.completeFunctionCalls": true,
+    "workbench.editorAssociations": {
+        "*.ico": "luna.editor",
+        "*.png": "imagePreview.previewEditor"
+    },
+    "hexeditor.columnWidth": 22,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "npm.keybindingsChangedWarningShown": true,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "svelte.enable-ts-plugin": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.useInlineCompletions": true,
+    "tailwindCSS.emmetCompletions": true,
+    "svg.preview.mode": "svg",
+    "xml.server.binary.trustedHashes": [
+        "160c3a783fc8ba5cb4b00a98357069c0c8e34ce8816f4f966cee4c1515baa767",
+        "b915741b57148a609aba7ae2124db1f8a374cf4eef9683e91e422b2119ca22cc"
+    ],
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "xml.server.vmargs": "-Xmx128M",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "editor.stickyScroll.enabled": true,
+    "glassit.alpha": 220,
+    "editor.fontSize": 18,
+    "leetcode.filePath": {
+        "default": {
+            "folder": ".",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        }
+    },
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.editor.shortcuts": ["submit"],
+    "leetcode.hint.commentDescription": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "go.toolsManagement.autoUpdate": true,
+    "editor.cursorBlinking": "expand",
+    "workbench.reduceMotion": "off",
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "ms-mssql.mssql"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode-edge-devtools.browserFlavor": "Default",
+    "vscode-edge-devtools.headless": false,
+    "[swift]": {
+        "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
+    },
+    "editor.wrappingIndent": "none",
+    "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+    "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": true,
+    "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": true,
+    "editor.accessibilitySupport": "off",
+    "gitlens.rebaseEditor.ordering": "asc",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', 'FiraCode NFM', 'Fira Code', 'Operator Mono SSm Lig', 'Operator Mono Lig', 'Ubuntu Mono', Ubuntu, 'Droid Sans Mono', 'Droid Sans Fallback', monospace",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "Theme Mix",
+    "arduino.useArduinoCli": true,
+    "zig.zigPath": "",
+    "zig.zls.enabled": true,
+    "zig.zls.path": "/home/jj/.config/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+    "workbench.editor.empty.hint": "hidden",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
+}
