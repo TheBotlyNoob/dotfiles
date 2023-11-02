@@ -299,7 +299,6 @@
         "markdown": true,
         "scminput": false
     },
-    "workbench.editor.untitled.hint": "hidden",
     "workbench.colorTheme": "Theme Mix",
     "arduino.useArduinoCli": true,
     "zig.zigPath": "",
