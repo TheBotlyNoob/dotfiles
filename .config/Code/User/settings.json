@@ -313,5 +313,6 @@
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
-    }
+    },
+    "liveServer.settings.donotShowInfoMsg": true
 }
