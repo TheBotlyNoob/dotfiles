@@ -87,7 +87,7 @@
         "editor.defaultFormatter": "timonwong.shellcheck"
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true
     },
     "[powershell]": {
@@ -314,5 +314,8 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    }
 }

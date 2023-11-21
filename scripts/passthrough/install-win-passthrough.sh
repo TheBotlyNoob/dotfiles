@@ -43,12 +43,9 @@ create_rom() {
 }
 
 setup_libvirt_scripts() {
-    git clone https://gitlab.com/risingprismtv/single-gpu-passthrough.git
+    git clone https://gitlab.com/akshaycodes/vfio-script 
 
-    cd single-gpu-passthrough || {
-        echo "make a ~/passthrough directory, download the amdvbflash binary from TechPoweredUp and put it in that folder."
-        exit 1
-    }
+    cd vfio-script || exit 1
 
     # replace win10 to win11 in hooks/qemu
     sed -i 's/win10/win11/g' hooks/qemu
@@ -57,10 +54,10 @@ setup_libvirt_scripts() {
     #     echo efi-framebuffer.0 > /sys/bus/platform/drivers/efi-framebuffer/unbind
     # add:
     #     echo 'device_specific' > /sys/bus/pci/devices/0000:0c:00.0/reset_method
-    sed -i 's/echo efi-framebuffer.0 > \/sys\/bus\/platform\/drivers\/efi-framebuffer\/unbind/echo efi-framebuffer.0 > \/sys\/bus\/platform\/drivers\/efi-framebuffer\/unbind\n\techo "device_specific" > \/sys\/bus\/pci\/devices\/0000:0c:00.0\/reset_method/g' hooks/qemu
+    # sed -i 's/echo efi-framebuffer.0 > \/sys\/bus\/platform\/drivers\/efi-framebuffer\/unbind/echo efi-framebuffer.0 > \/sys\/bus\/platform\/drivers\/efi-framebuffer\/unbind\n\techo "device_specific" > \/sys\/bus\/pci\/devices\/0000:0c:00.0\/reset_method/g' hooks/qemu
 
-    sudo chmod +x install_hooks.sh
-    sudo ./install_hooks.sh
+    sudo chmod +x vfio_script_install.sh
+    sudo ./vfio_script_install.sh
 }
 
 cd ~/passthrough || {
