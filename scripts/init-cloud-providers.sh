@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set +e
+
 for provider in gdrive onedrive; do
     mkdir ~/$provider
     rclone mount $provider: ~/$provider \
