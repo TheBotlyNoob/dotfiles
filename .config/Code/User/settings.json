@@ -30,9 +30,9 @@
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.fontFamily": "'Operator Mono SSm Lig', 'Operator Mono Lig', 'Operator Mono', 'FiraCode Nerd Font', 'FiraCode NFM', 'Fira Code',  'Ubuntu Mono', Ubuntu, 'Droid Sans Mono', 'Droid Sans Fallback', monospace",
+    "editor.fontFamily": " 'FiraCode Nerd Font', 'FiraCode NFM', 'Fira Code', 'Operator Mono SSm Lig', 'Operator Mono Lig', 'Operator Mono',  'Ubuntu Mono', Ubuntu, 'Droid Sans Mono', 'Droid Sans Fallback', monospace",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "500",
+    "editor.fontWeight": "bold",
     "editor.letterSpacing": 0.5,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "files.insertFinalNewline": true,
@@ -317,5 +317,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "[svelte]": {
         "editor.defaultFormatter": "svelte.svelte-vscode"
-    }
+    },
+    "chat.editor.fontWeight": "medium",
+    "window.zoomLevel": -1
 }
