@@ -297,9 +297,10 @@
         "*": true,
         "plaintext": true,
         "markdown": true,
-        "scminput": false
+        "scminput": false,
+        "rust": false
     },
-    "workbench.colorTheme": "Theme Mix",
+    "workbench.colorTheme": "GitHub Dark",
     "arduino.useArduinoCli": true,
     "zig.zigPath": "",
     "zig.zls.enabled": true,
@@ -312,7 +313,7 @@
         "editor.selectionHighlight": false,
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "liveServer.settings.donotShowInfoMsg": true,
     "[svelte]": {
