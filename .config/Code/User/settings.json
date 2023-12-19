@@ -298,7 +298,11 @@
         "plaintext": true,
         "markdown": true,
         "scminput": false,
+<<<<<<< HEAD
         "rust": true
+=======
+        "rust": false
+>>>>>>> 989748a2718e7af8bf156da1e4a5a8b63a92c5f1
     },
     "workbench.colorTheme": "GitHub Dark",
     "arduino.useArduinoCli": true,
