@@ -13,6 +13,6 @@ enable = true
 render = true
 
 [editor.cursor-shape]
-normal = "block"
-insert = "underline"
-select = "bar"
+normal = "underline"
+insert = "bar"
+select = "block"
