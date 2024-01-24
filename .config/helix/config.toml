@@ -2,3 +2,13 @@ theme = "catppuccin_frappe"
 
 [keys.insert]
 "A-tab" = "normal_mode"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+render = true
+

@@ -213,20 +213,11 @@
     "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
     "files.eol": "\n",
     "vscode-edge-devtools.webhint": false,
-    "settingsSync.ignoredSettings": [
-        "configurationSync.store",
-        "leetcode.workspaceFolder"
-    ],
     "remoteHub.commitDirectlyWarning": "off",
     "deno.codeLens.implementations": true,
     "deno.codeLens.references": true,
     "deno.codeLens.referencesAllFunctions": true,
     "deno.codeLens.test": true,
-    "deno.suggest.completeFunctionCalls": true,
-    "workbench.editorAssociations": {
-        "*.ico": "luna.editor",
-        "*.png": "imagePreview.previewEditor"
-    },
     "hexeditor.columnWidth": 22,
     "hexeditor.showDecodedText": true,
     "hexeditor.defaultEndianness": "little",
@@ -275,17 +266,11 @@
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
-    "[sql]": {
-        "editor.defaultFormatter": "ms-mssql.mssql"
-    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "vscode-edge-devtools.browserFlavor": "Default",
     "vscode-edge-devtools.headless": false,
-    "[swift]": {
-        "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
-    },
     "editor.wrappingIndent": "none",
     "rust-analyzer.inlayHints.bindingModeHints.enable": true,
     "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": true,
@@ -298,11 +283,7 @@
         "plaintext": true,
         "markdown": true,
         "scminput": false,
-<<<<<<< HEAD
-        "rust": true
-=======
         "rust": false
->>>>>>> 989748a2718e7af8bf156da1e4a5a8b63a92c5f1
     },
     "workbench.colorTheme": "GitHub Dark",
     "arduino.useArduinoCli": true,
