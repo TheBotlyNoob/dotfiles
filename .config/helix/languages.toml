@@ -2,6 +2,10 @@
 command = "clippy"
 
 [[language]]
+name = "html"
+formatter = { command = "mylang-formatter" , args = ["--parser", "html"] }
+
+[[language]]
 name = "rust"
 
 [language.auto-pairs]
