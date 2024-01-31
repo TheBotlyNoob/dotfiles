@@ -2,7 +2,7 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 store.steampowered.com	0	0	1704496723	10368000
-raw.githubusercontent.com	0	0	1705799990	31536000
+raw.githubusercontent.com	0	0	1706219895	31536000
 www.protondb.com	0	0	1704417655	31536000
-github.com	0	1	1705800185	31536000
+github.com	0	1	1706237675	31536000
 codeload.github.com	0	0	1697764175	31536000
