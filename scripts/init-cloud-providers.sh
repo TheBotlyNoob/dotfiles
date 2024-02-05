@@ -2,7 +2,7 @@
 
 set +e
 
-for provider in gdrive onedrive; do
+for provider in gdrive onedrive gdrive-school; do
     mkdir ~/$provider
     rclone mount $provider: ~/$provider \
         --vfs-cache-mode full \
