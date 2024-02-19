@@ -12,7 +12,8 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-function clear
+function cls
+    clear
     printf "\e[H\e[3J"
 end
 

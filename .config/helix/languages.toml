@@ -3,16 +3,33 @@ command = "clippy"
 
 [[language]]
 name = "html"
-formatter = { command = "mylang-formatter" , args = ["--parser", "html"] }
+formatter = { command = "prettier" , args = ["--parser", "html"] }
 
 [[language]]
 name = "rust"
 
-[language.auto-pairs]
-'(' = ')'
-'{' = '}'
-'[' = ']'
-'"' = '"'
-"'" = "'"
-'`' = '`'
-'<' = '>'
+[language-server.astro-ls]
+command = "astro-ls"
+args = [ "--stdio" ]
+config = { "typescript" = { "tsdk" = "/home/jj/.local/share/pnpm/global/5/node_modules/typescript/lib"}, "environment" = "node" }
+
+[[language]]
+name = "astro"
+scope = "source.astro"
+injection-regex = "astro"
+file-types = ["astro"]
+roots = ["package.json", "astro.config.mjs"]
+language-servers = [ "astro-ls" ]
+
+[language-server.mdx-language-server]
+command = "mdx-language-server"
+args = [ "--stdio" ]
+config = { "typescript" = { "tsdk" = "/home/jj/.local/share/pnpm/global/5/node_modules/typescript/lib"}, "environment" = "node" }
+
+[[language]]
+name = "mdx"
+scope = "source.mdx"
+injection-regex = "mdx"
+file-types = ["mdx"]
+roots = ["package.json"]
+language-servers = [ "mdx-language-server" ]
