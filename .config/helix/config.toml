@@ -16,3 +16,6 @@ render = true
 normal = "underline"
 insert = "bar"
 select = "block"
+
+[editor.statusline]
+right = ["diagnostics", "selections", "register", "position", "primary-selection-length", "file-encoding"]
