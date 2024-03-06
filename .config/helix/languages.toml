@@ -46,3 +46,7 @@ auto-format = true
 [[language]]
 name = "tsx"
 auto-format = true
+
+[[language]]
+name = "c"
+auto-format = true
