@@ -12,7 +12,7 @@ name = "rust"
 [language-server.astro-ls]
 command = "astro-ls"
 args = [ "--stdio" ]
-config = { "typescript" = { "tsdk" = "/home/jj/.local/share/pnpm/global/5/node_modules/typescript/lib"}, "environment" = "node" }
+config = { "typescript" = { "tsdk" = "/home/jj/.local/share/pnpm/global/5/node_modules/typescript/lib" } }
 
 [[language]]
 name = "astro"
@@ -25,7 +25,7 @@ language-servers = [ "astro-ls" ]
 [language-server.mdx-language-server]
 command = "mdx-language-server"
 args = [ "--stdio" ]
-config = { "typescript" = { "tsdk" = "/home/jj/.local/share/pnpm/global/5/node_modules/typescript/lib"}, "environment" = "node" }
+config = { "typescript" = { "tsdk" = "/home/jj/.local/share/pnpm/global/5/node_modules/typescript/lib" }, "environment" = "node" }
 
 [[language]]
 name = "mdx"
@@ -33,7 +33,14 @@ scope = "source.mdx"
 injection-regex = "mdx"
 file-types = ["mdx"]
 roots = ["package.json"]
+auto-format = true
 language-servers = [ "mdx-language-server" ]
+
+[[language]]
+name = "markdown"
+auto-format = true
+language-servers = [ "marksman", "marksman-oxide" ]
+
 
 [[language]]
 name = "svelte"

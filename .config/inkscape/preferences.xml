@@ -626,7 +626,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/jj/onedrive/Digital Art and Design 1/Charlie Harper" />
+       path="/home/jj/onedrive/Digital Art and Design 1/Coulor Tire" />
     <group
        id="import"
        enable_preview="1"
@@ -986,7 +986,7 @@
        height="1066"
        x="0"
        y="0"
-       maximized="1"
+       maximized="0"
        fullscreen="0"
        id="geometry" />
     <group
