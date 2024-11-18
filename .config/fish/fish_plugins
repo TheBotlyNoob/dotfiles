@@ -1,1 +1,4 @@
-/home/jj/dotfiles/.config/fish/fish_plugins
+jorgebucaran/fisher
+jorgebucaran/nvm.fish
+decors/fish-colored-man
+pure-fish/pure

