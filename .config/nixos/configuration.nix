@@ -138,6 +138,14 @@
       zellij
       yadm
       playerctl
+      swww
+      file
+      swayimg
+      lsd
+      jq
+      parallel
+      dunst
+      waybar
     ];
   };
   services.displayManager.autoLogin.user = "jj";
