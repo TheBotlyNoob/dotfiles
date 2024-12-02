@@ -10,6 +10,8 @@
       ./hardware-configuration.nix
     ];
 
+  # use zen kernel for waydroid
+  boot.kernelPackages = pkgs.linuxPackages_zen;
 
   boot.loader.efi.canTouchEfiVariables = true;
   boot.supportedFilesystems = ["ntfs"];
@@ -22,9 +24,6 @@
     options = "--delete-old";
   };
   
-  # use zen kernel for waydroid
-  boot.kernelPackages = pkgs.linuxPackages_zen;
-
   networking.hostName = "JJ-Desktop"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -138,6 +137,7 @@
       thefuck
       zellij
       yadm
+      playerctl
     ];
   };
   services.displayManager.autoLogin.user = "jj";
@@ -215,6 +215,7 @@
      distrobox
      dive # look into docker image layers
      podman-tui # status of containers in the terminal
+     cryptsetup
   ];
 
   environment.variables = {
