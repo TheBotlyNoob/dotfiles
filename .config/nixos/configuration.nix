@@ -2,17 +2,23 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ ... }@flakeInputs:
+{ config, pkgs, ... }@inputs:
+let
+  spicePkgs = flakeInputs.spicetify-nix.legacyPackages.${pkgs.system};
+in
 
 {
   imports =
     [ # Include the results of the hardware scan.
+      flakeInputs.spicetify-nix.nixosModules.default
       ./hardware-configuration.nix
     ];
 
   # use zen kernel for waydroid
   boot.kernelPackages = pkgs.linuxPackages_zen;
 
+  boot.loader.timeout = 1;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.supportedFilesystems = ["ntfs"];
   boot.tmp.useTmpfs = true;
@@ -57,7 +63,11 @@
 
   # Enable the GNOME Desktop Environment.
   programs.hyprland.enable = true;
-  services.displayManager.sddm.enable = true;
+  services.displayManager.sddm = {
+    enable = true;
+    # wayland.enable = true;
+    theme = "catpuccin-mocha";
+  };
   # services.xserver.displayManager.gdm.enable = true;
   # services.xserver.desktopManager.gnome.enable = true;
 
@@ -102,12 +112,40 @@
   hardware.bluetooth.enable = true;
   services.blueman.enable = true;
 
+
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
+    nerd-fonts.fira-code
+    nerd-fonts.mononoki
+    maple-mono-NF
+    cascadia-code
   ];
+
+  programs.spicetify = 
+      {
+        enable = true;
+        enabledExtensions = with spicePkgs.extensions; [
+          groupSession
+          shuffle # shuffle+ (special characters are sanitized out of extension names)
+          showQueueDuration
+          autoVolume
+          songStats
+          history
+          betterGenres
+          fullAppDisplay
+          addToQueueTop
+          keyboardShortcut
+          oldSidebar
+        ];
+        enabledCustomApps = with spicePkgs.apps; [
+          ncsVisualizer
+        ];
+
+        theme = spicePkgs.themes.catppuccin;
+	colorScheme = "mocha";
+      };
 
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
@@ -118,7 +156,6 @@
     packages = with pkgs; [
       firefox
       microsoft-edge
-      spotify
       vscode
       devenv
       direnv
@@ -142,14 +179,19 @@
       file
       swayimg
       lsd
+      bat
       jq
       parallel
       dunst
       waybar
+      (python3.withPackages(ps: with ps; [ pygobject3 ]))
     ];
   };
   services.displayManager.autoLogin.user = "jj";
   nix.settings.trusted-users = [ "jj" ];
+
+  security.polkit.enable = true;
+  programs.dconf.enable = true;
 
   networking = {
     firewall = {
@@ -212,7 +254,7 @@
      fira-code
      pavucontrol
      kitty
-     wofi
+     rofi-wayland
      fish
      fishPlugins.z
      fishPlugins.done
@@ -224,6 +266,24 @@
      dive # look into docker image layers
      podman-tui # status of containers in the terminal
      cryptsetup
+     killall
+
+     polkit_gnome
+     udiskie
+     wl-clipboard
+     networkmanagerapplet
+     gettext
+
+     glib
+     adwaita-icon-theme
+
+     (catppuccin-sddm.override {
+       flavor = "mocha";
+       font  = "Mononoki Nerd Font";
+       fontSize = "12";
+       background = "${config.users.users.jj.home}/wallpapers/sci-fi/WALL-E/WALLY.jpg";
+       loginBackground = true;
+     })
   ];
 
   environment.variables = {

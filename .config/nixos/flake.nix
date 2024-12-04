@@ -3,13 +3,20 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    spicetify-nix = {
+      url = "github:Gerg-L/spicetify-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { self, nixpkgs, ... }@inputs: { 
+  outputs = { self, nixpkgs, spicetify-nix, ... }@inputs: 
+  { 
     nixosConfigurations.JJ-Desktop = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
+
+
       modules = [
-        ./configuration.nix
+        (import ./configuration.nix inputs)
       ];
     };
  };

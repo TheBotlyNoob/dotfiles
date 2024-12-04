@@ -4,6 +4,8 @@ if status is-interactive
 	# starship init fish | source
 end
 
+fish_add_path ~/.local/share/bin
+
 alias ls 'lsd'
 
 abbr l 'ls -l'
