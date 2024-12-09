@@ -166,6 +166,7 @@ in
       nushell
       signal-desktop
       nwg-displays
+      nwg-look
       docker
       hyprshot
       github-cli
@@ -185,12 +186,35 @@ in
       dunst
       waybar
       (python3.withPackages(ps: with ps; [ pygobject3 ]))
+
+      remmina
+
+      rclone
+
+      grimblast
+      hyprpicker
+      slurp
+      swappy
+      cliphist
     ];
   };
   services.displayManager.autoLogin.user = "jj";
   nix.settings.trusted-users = [ "jj" ];
 
+  services.sunshine = {
+    enable = true;
+    autoStart = true;
+    capSysAdmin = true;
+    openFirewall = true;
+  };
+
+  services.tailscale = {
+    enable = true;
+    useRoutingFeatures = "client";
+  };
+
   security.polkit.enable = true;
+  services.udisks2.enable = true;
   programs.dconf.enable = true;
 
   networking = {
@@ -238,6 +262,10 @@ in
     };
   };
 
+  qt.enable = true;
+  qt.platformTheme = "qt5ct";
+  qt.style = "kvantum";
+
   nix.settings.experimental-features = ["nix-command" "flakes"];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -277,6 +305,13 @@ in
      glib
      adwaita-icon-theme
 
+     kdePackages.dolphin 
+     lightly-qt 
+     catppuccin-kvantum
+     qt5.qtwayland
+     libsForQt5.qtstyleplugin-kvantum
+
+
      (catppuccin-sddm.override {
        flavor = "mocha";
        font  = "Mononoki Nerd Font";
@@ -289,6 +324,8 @@ in
   environment.variables = {
     EDITOR = "nvim";
     VISUAL = "nvim";
+
+    QT_STYLE_OVERRIDE = "kvantum";
   };
 
 
