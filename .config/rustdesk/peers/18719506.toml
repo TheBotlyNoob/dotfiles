@@ -1,0 +1,57 @@
+password = []
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+size_ft = [
+    0,
+    0,
+    0,
+    0,
+]
+size_pf = [
+    0,
+    0,
+    0,
+    0,
+]
+view_style = 'original'
+scroll_style = 'scrollauto'
+image_quality = 'balanced'
+custom_image_quality = [50]
+show_remote_cursor = false
+lock_after_session_end = false
+privacy_mode = false
+allow_swap_key = false
+port_forwards = []
+direct_failures = 1
+disable_audio = false
+disable_clipboard = false
+enable-file-copy-paste = true
+show_quality_monitor = false
+follow_remote_cursor = false
+follow_remote_window = false
+keyboard_mode = 'map'
+view_only = false
+
+[options]
+i444 = ''
+touch-mode = ''
+custom-fps = '30'
+swap-left-right-mouse = ''
+zoom-cursor = ''
+collapse_toolbar = ''
+codec-preference = 'auto'
+
+[ui_flutter]
+
+[info]
+username = 'Aiden'
+hostname = 'ghostlyghost'
+platform = 'Windows'
+
+[transfer]
+write_jobs = []
+read_jobs = []
