@@ -10,7 +10,7 @@ sleep 5
 
 for file in configuration.nix flake.nix flake.lock; do
     echo -e "moving \033[94m/etc/nixos/$file\033[0m \033[32m->\033[0m \033[94m/etc/nixos/$file\033[4m.bak\033[0m"
-    sudo mv "/etc/nixos/$file" "/etc/nixos/$file.bak"
+    [ -f "/etc/nixos/$file" ] && sudo mv "/etc/nixos/$file" "/etc/nixos/$file.bak"
 
     echo -e "hardlinking \033[94m$HOME/.config/nixos/$file\033[0m \033[32m->\033[0m \033[94m/etc/nixos/$file\033[0m"
     sudo ln "$HOME/.config/nixos/$file" "/etc/nixos/$file"
