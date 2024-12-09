@@ -4,10 +4,6 @@
 
 { ... }@flakeInputs:
 { config, pkgs, ... }@inputs:
-let
-  spicePkgs = flakeInputs.spicetify-nix.legacyPackages.${pkgs.system};
-in
-
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -30,7 +26,6 @@ in
     options = "--delete-old";
   };
   
-  networking.hostName = "JJ-Desktop"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -124,6 +119,9 @@ in
   ];
 
   programs.spicetify = 
+  let
+    spicePkgs = flakeInputs.spicetify-nix.legacyPackages.${pkgs.system};
+  in
       {
         enable = true;
         enabledExtensions = with spicePkgs.extensions; [
