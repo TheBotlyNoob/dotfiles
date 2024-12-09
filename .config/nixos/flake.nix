@@ -20,12 +20,12 @@
 	(import ./desktop.nix inputs)
       ];
     };
-    nixosConfigurations.fbi-van-desktop = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.fbi-van-laptop = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
 
       modules = [
         (import ./configuration.nix inputs)
-	(import ./desktop.nix inputs)
+	(import ./fbi-van.nix inputs)
       ];
     };
  };
