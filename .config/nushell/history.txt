@@ -1472,3 +1472,5 @@ git revert --abort
 git revert --abort\
 git revert --abort
 curl --socks5 localhost:3000 https://example.com
+echo "AUTHENTIK_ERROR_REPORTING__ENABLED=true" >> .env<\n><\n>
+fish

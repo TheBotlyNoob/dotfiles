@@ -26,6 +26,10 @@
     options = "--delete-old";
   };
   
+  services.flatpak.enable = true;
+
+  networking.wireguard.enable = true;
+
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -76,11 +80,12 @@
     variant = "";
   };
 
+  programs.coolercontrol.enable = true;
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
   # Enable sound with pipewire.
-  hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -150,7 +155,7 @@
   users.users.jj = {
     isNormalUser = true;
     description = "Jay Jackson";
-    extraGroups = [ "networkmanager" "wheel" "dialout" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "dialout" "docker" "wireshark" ];
     packages = with pkgs; [
       firefox
       microsoft-edge
@@ -159,13 +164,10 @@
       direnv
       vesktop
       todoist-electron
-      bottles
       prismlauncher
-      nushell
       signal-desktop
       nwg-displays
       nwg-look
-      docker
       hyprshot
       github-cli
       devenv
@@ -194,10 +196,25 @@
       slurp
       swappy
       cliphist
+
+      p7zip
+      p7zip-rar
+      unrar
+      unzip
+      zip
+
+      wireguard-tools
+
+      gamemode
     ];
   };
   services.displayManager.autoLogin.user = "jj";
   nix.settings.trusted-users = [ "jj" ];
+
+  programs.wireshark = {
+    enable = true;
+    package = pkgs.wireshark;
+  };
 
   services.sunshine = {
     enable = true;
@@ -225,8 +242,6 @@
     };
   };
 
-  virtualisation.waydroid.enable = true;
-
   programs.fish.enable = true;
 
   programs.bash = {
@@ -248,17 +263,7 @@
   nixpkgs.config.allowUnfree = true;
 
   virtualisation.containers.enable = true;
-  virtualisation = {
-    podman = {
-      enable = true;
-
-      # Create a `docker` alias for podman, to use it as a drop-in replacement
-      dockerCompat = true;
-
-      # Required for containers under podman-compose to be able to talk to each other.
-      defaultNetwork.settings.dns_enabled = true;
-    };
-  };
+  virtualisation.docker.enable = true;
 
   qt.enable = true;
   qt.platformTheme = "qt5ct";
