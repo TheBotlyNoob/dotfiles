@@ -3,7 +3,7 @@
 	name = TheBotlyNoob
 [credential "https://github.com"]
 	helper = 
-	helper = !/etc/profiles/per-user/jj/bin/gh auth git-credential
+	helper = !~/.nix-profile/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
-	helper = !/etc/profiles/per-user/jj/bin/gh auth git-credential
+	helper = !~/.nix-profile/bin/gh auth git-credential

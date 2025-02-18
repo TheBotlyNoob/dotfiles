@@ -40,6 +40,8 @@
     zellij
     lazygit
 
+    lsd
+    bat
     fzf
     ripgrep
     fd
