@@ -15,13 +15,13 @@
   # release notes.
   home.stateVersion = "24.11"; # Please read the comment before changing.
 
-  # programs.vscode = {
-  #   enable = true;
-  #   extensions = with pkgs.vscode-extensions; [
-  #     github.github-vscode-theme
-  #     vscodevim.vim
-  #   ];
-  # };
+  programs.vscode = {
+    enable = true;
+    extensions = with pkgs.vscode-extensions; [
+      github.github-vscode-theme
+      vscodevim.vim
+    ];
+  };
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
@@ -45,9 +45,14 @@
     fzf
     ripgrep
     fd
+    starship
+
+    browsh
 
     curl
     wget
+
+    nodejs
 
     gcc
 
