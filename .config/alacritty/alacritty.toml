@@ -3,3 +3,6 @@ shell = { program = "zellij" }
 
 [font]
 normal = { family = "FiraCode Nerd Font Mono" }
+
+[keyboard]
+bindings = [{ key = "F11", action = "ToggleFullscreen" }]

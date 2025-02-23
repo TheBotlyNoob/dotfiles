@@ -1,7 +1,7 @@
 set -g fish_greeting
 
 if status is-interactive
-    # starship init fish | source
+    starship init fish | source
     #
     # #  Initialization of global variables
     set -q LS_AFTER_CD || set -gx LS_AFTER_CD true
