@@ -30,7 +30,6 @@
     # # "Hello, world!" when run.
     # pkgs.hello
 
-    microsoft-edge
     github-cli
     devenv
     direnv

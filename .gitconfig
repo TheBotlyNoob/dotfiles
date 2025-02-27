@@ -10,3 +10,5 @@
 [push]
 	autpSetupRemote = true
 	autoSetupRemote = true
+[pull]
+	rebase = true
