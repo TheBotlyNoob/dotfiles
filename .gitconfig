@@ -7,3 +7,6 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !~/.nix-profile/bin/gh auth git-credential
+[push]
+	autpSetupRemote = true
+	autoSetupRemote = true
