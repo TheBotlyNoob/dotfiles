@@ -12,3 +12,5 @@
 	autoSetupRemote = true
 [pull]
 	rebase = true
+[alias]
+	root = rev-parse --show-toplevel

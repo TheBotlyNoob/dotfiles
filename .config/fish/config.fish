@@ -26,6 +26,10 @@ abbr la 'ls -a'
 abbr lla 'ls -la'
 abbr lt 'ls --tree'
 
+abbr cq 'cat 1.in | python3 solve.py'
+
+alias whitespace "sed 's/ /·/g;s/\t/￫/g;s/\r/§/g;s/\$/¶/g'"
+
 # Handy change dir shortcuts
 abbr .. 'cd ..'
 abbr ... 'cd ../..'
