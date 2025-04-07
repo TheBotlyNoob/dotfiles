@@ -37,7 +37,19 @@ abbr .3 'cd ../../..'
 abbr .4 'cd ../../../..'
 abbr .5 'cd ../../../../..'
 
-
+set -gx JAVA_HOME /usr/lib/jvm/$(archlinux-java get)
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 abbr mkdir 'mkdir -p'
+
+function ccd -a dir
+    if set -q dir; and test -n dir; and [ "$dir" != "" ]
+        set directory "$dir"
+    else
+        set directory "."
+    end
+
+    cd $(fd --type d . "$directory" | fzf --preview 'lsd -1gAF --color=always {}')
+end
+
+fzf --fish | source

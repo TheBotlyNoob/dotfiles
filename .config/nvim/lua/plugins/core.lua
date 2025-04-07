@@ -1,5 +1,11 @@
 return {
-  { "ellisonleao/gruvbox.nvim" },
+  {
+    "catppuccin/nvim",
+    lazy = false,
+    opts = {
+      transparent_background = false,
+    },
+  },
 
   {
     "LazyVim/LazyVim",
